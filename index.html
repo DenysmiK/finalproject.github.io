@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>My Page</title>
+</head>
+<body background="./res/background4.jpg">
+    <div class="container">
+        <div class="left_Side">
+            <div class="profileText">
+                <div class="imgBx"> 
+                    <img src="./res/poza_ID.jpg">
+                </div>
+                <h2>Broncea Denisa Iulia<br><span>Web Developer</span></h2>
+            </div>
+            <div class="contactInfo">
+              <div class="title">Date de contact</div>
+                <p>
+                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                    <span class="text">0726.959.607</span>
+                </p>    
+                <p>
+                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                    <span class="text">denisa.broncea@gmail.com</span>
+                </p>
+                <p>
+                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                    <span class="text">București, România</span>
+                </p>
+                <p>
+                    <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                    <a href="https://www.facebook.com/DenysmiK">Social</a>
+                </p>
+                
+                <h3 class="study">Studii</h3>
+                <p>
+                    <span class="text">2023 - Introducere în Web development - JavaScript | HTML | CSS</span>
+                </p>
+                <p>
+                    <span class="text"> 2014 - 2016 - Master "Nutriție și remodelare corporală"</span>
+                </p>
+                <p>
+                    <span class="text">2010 - 2013 - Universitatea Națională de Educație Fizică și Sport București</span>
+                </p>
+            </div>
+            <h4 class="language">Limbi Străine - Engleză</h4>
+            <li>
+                <span class="text">Citit</span>
+                <span class="percent">
+                    <div style="width: 90%;"></div>
+                </span>
+            </li>
+            <li>
+                <span class="text">Vorbit</span>
+                <span class="percent">
+                    <div style="width: 90%;"></div>
+                </span>
+            </li>
+                <form id="contactForm">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br>
+    
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br>
+    
+                  <label for="message">Message:</label><br>
+                  <textarea id="message" name="message" required></textarea><br>
+    
+                  <button type="submit">Submit</button>
+                </form>
+            <div id="messageDisplay"></div>
+        </div>
+        <div class="right_Side">
+           <div class="about">
+                   <h2 class="title2">Despre mine</h2>
+                   <p style="color:rgb(79, 116, 19)">Dintotdeauna am fost atrasă de task-uri ce implică organizare, culoare, lucrul meticulos. 
+               Consider că în orice domeniu este nevoie de multă muncă, răbdare cu tine și cu ceilalți pentru a duce la bun 
+               sfârșit ideea. Mă adaptez foarte ușor la condiții de lucru și nu renunț așa ușor când întâmpin probleme. 
+               Mă simt foarte bine lucrând într-o echipă fiind o fire sociabilă și săritoare.</p>
+            </div>
+            <div class="about">
+                <h2 class="title2">Experienta</h2>
+                <div class="box">
+                    <div class="year-company">
+                        <dl>
+                                <dt><strong>2020 - prezent</strong></dt>
+                                <dd><i>Medysportline - Kinetoterapeut</i></dd>
+                                <dd>Responsabilă de alcătuirea unui protocol de exerciții specifice diagnosticului pacientului.</dd>
+                        </dl>
+                        <dl>
+                                <dt><strong>2015 - 2020</strong></dt>
+                                <dd><i>Fundația Longevita - Kinetoterapeut</i></dd>
+                                <dd>Responsabilă de activitatea fizică a persoanelor vârstnice internate.</dd>
+                        </dl>
+                        <dl >
+                                <dt><strong>2014 - 2015</strong></dt>
+                                <dd><i>Izokinetic - Kinetoterapeut</i></dd>
+                                <dd>Responsabilă de alcătuirea unui protocol de exerciții specifice diagnosticului pacientului.</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="about skills">
+                <h2 class="title2">Abilități profesionale</h2>
+                <div class="skills">
+                    <div class="skill">
+                       <div class="skill-name">HTML</div>
+                            <div class="skill-bar">
+                               <div class="skill-per" per="70%" style="max-width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-name">Css</div>
+                            <div class="skill-bar">
+                                <div class="skill-per" per="60%" style="max-width: 60%;"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="skill">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="30%" style="max-width: 30%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>             
+                <div class="about interest">
+                <h2 class="title2">Interese</h2>
+                <ul>
+                    <li>
+                          <span class="icon" style="color:darkolivegreen;"><i class="fa fa-leaf" aria-hidden="true"></i></span>
+                          <span class="text" style="color:darkolivegreen;">Drumeție</span>
+                    </li>
+                    <li>
+                          <span class="icon"style="color: darkolivegreen;"><i class="fa fa-paw" aria-hidden="true"></i></span>
+                          <span class="text"style="color: darkolivegreen;">Câini</span>
+                    </li>
+                    <li>
+                          <span class="icon"style="color: darkolivegreen;"><i class="fa fa-camera" aria-hidden="true"></i></span>
+                          <span class="text"style="color: darkolivegreen;">Fotografie</span>
+                    </li>
+                </ul>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="./res/Fotografie.jpg" style="width:100%">
+                    </div>                 
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="./res/Caini.jpg" style="width:100%">
+                    </div>                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="./res/Drumetie.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)"><</a>
+                    <a class="next" onclick="plusSlides(1)">></a>
+                </div>
+                    <br>                    
+                    <div class="dots">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>                    
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script src="./js/main.js"></script> 
+</html>
